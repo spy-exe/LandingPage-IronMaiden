@@ -479,3 +479,46 @@ footer a:hover{
         display: none;
     }
 }
+
+.contato-content{
+    background: linear-gradient(to bottom,rgba(30,0,0,0.95), rgba(10,0,0,0.95)), url("img/background.jpg");
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+#contact-form{
+    width: 60%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form label{
+    margin-top: 0.5rem;
+    margin-bottom: 0.2rem;
+}
+
+#contact-form input,
+#contact-form textarea{
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    border: 1px solid #ccc;
+    font-family: inherit;
+}
+
+#contact-form button{
+    margin-top: 0.8rem;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    background-color: rgb(156, 44, 24);
+    border: none;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact-form button:hover{
+    background-color: rgb(143, 42, 42);
+}

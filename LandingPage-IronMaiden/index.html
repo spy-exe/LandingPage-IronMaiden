@@ -54,8 +54,6 @@
                         foi escolhido por ser assustador.
                     </p>
                 </div>
-                    
-                </div>
             </section>
         </div>
         <div class="discografia-content" id="discografia">
@@ -70,8 +68,8 @@
                                     <button>2021</button>
                                 </div>
                             </div>
-                            <audio id="myAudio" src="sound/fear_of_the_dark.mp3"></audio>
-                            <button class="play-btn" id="playPauseButton">Reproduzir</button>
+                            <audio class="audio-sample" src="sound/fear_of_the_dark.mp3"></audio>
+                            <button class="play-btn" >Reproduzir</button>
                         </div>
                     </div> 
                 
@@ -86,8 +84,8 @@
                                 </div>
                                 
                             </div>
-                            <audio id="myAudio" src="sound/fear_of_the_dark.mp3"></audio>
-                            <button class="play-btn" id="playPauseButton">Reproduzir</button>
+                            <audio class="audio-sample" src="sound/fear_of_the_dark.mp3"></audio>
+                            <button class="play-btn" >Reproduzir</button>
                         </div>
                     </div>
 
@@ -101,8 +99,8 @@
                                     <button>1994</button>
                                 </div>
                             </div>
-                            <audio id="myAudio" src="sound/fear_of_the_dark.mp3"></audio>
-                            <button class="play-btn" id="playPauseButton">Reproduzir</button>
+                            <audio class="audio-sample" src="sound/fear_of_the_dark.mp3"></audio>
+                            <button class="play-btn" >Reproduzir</button>
                         </div>
                     </div>
 
@@ -116,8 +114,8 @@
                                     <button>1983</button>
                                 </div>
                             </div>
-                            <audio id="myAudio" src="sound/fear_of_the_dark.mp3"></audio>
-                            <button class="play-btn" id="playPauseButton">Reproduzir</button>
+                            <audio class="audio-sample" src="sound/fear_of_the_dark.mp3"></audio>
+                            <button class="play-btn" >Reproduzir</button>
                         </div>
                     </div>
             </section>
@@ -177,8 +175,16 @@
         <div class="contato-content">
             <section id="contato">
                 <h1>Contato</h1>
-
-            </section> 
+                <form id="contact-form" action="#" method="post">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" required>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
         </div>
     </main>
 
